@@ -3,7 +3,7 @@ from beem.instance import set_shared_steem_instance
 from beem import Steem
 import re
 
-stm = Steem("https://anyx.io")
+stm = Steem("https://anyx.io")#use https://api.steemit.com for steem
 set_shared_steem_instance(stm)
 acc = Account("[the account you want to check]",steem_instance=stm)
 
